@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "ferreteriaduran",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,12 +10,19 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "@nuxtjs/algolia": "^1.10.1",
     "@nuxtjs/axios": "^5.13.6",
-    "@nuxtjs/i18n": "^8.1.1",
     "@nuxtjs/strapi": "^1.11.0",
     "bootstrap": "^5.3.2",
+    "click-outside-vue3": "^4.0.1",
     "nuxt": "^3.9.1",
     "vue": "^3.4.10",
     "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^1.4.0",
+    "@nuxtjs/i18n": "^8.2.0"
   }
 }
