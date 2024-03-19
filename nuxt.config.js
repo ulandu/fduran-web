@@ -48,6 +48,6 @@ export default defineNuxtConfig({
         prefix: '/api'
     },
     image: {
-        dir: 'static/images',
+        dir: 'assets/images',
     },
 })
