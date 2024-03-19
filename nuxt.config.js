@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         },
 
     },
-    css: ['bootstrap/dist/css/bootstrap.css'],
+    css: ['bootstrap/dist/css/bootstrap.css',"@/assets/app.css"],
     modules: [
         '@nuxtjs/strapi',
         '@nuxt/image',
