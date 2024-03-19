@@ -3,11 +3,9 @@
     <header class="container">
       <div class="logo">
         <nuxt-link class="" to="/">
-        <nuxt-img
+        <img
             class="logo"
-            height="60"
-            src="/logo.png"
-            format="webp"
+            src="/static/images/logo.png"
             alt="logo"
         />
         </nuxt-link>
@@ -63,5 +61,9 @@ header.container{
   transition: .6s;
   width: 100%;
   z-index: 99;
+}
+
+.logo{
+  height:60px
 }
 </style>
